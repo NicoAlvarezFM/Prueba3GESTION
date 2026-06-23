@@ -1,0 +1,47 @@
+2026-06-22 22:30:59 - INFO - Inicio del proceso de validación del dataset procesado
+2026-06-22 22:30:59 - INFO - Logger configurado para validación estructural y semántica
+2026-06-22 22:30:59 - INFO - Inicio de validaciones estructurales y semánticas: filas=60000
+2026-06-22 22:30:59 - INFO - Validaciones calculadas: fecha_ok=59820, monto_ok=59820, genero_ok=59820
+2026-06-22 22:30:59 - INFO - Consolidación completada: registros_validos=57513, registros_invalidos=2487
+2026-06-22 22:31:00 - INFO - Observaciones generadas para el dataset: registros_con_error=2487
+2026-06-22 22:31:00 - INFO - Separación completada: total=60000, validos=57513, invalidos=2487
+2026-06-22 22:31:00 - INFO - Top motivos de invalidez:
+observaciones
+Edad fuera de rango (18-120)                                 912
+Longitud fuera de rango (-180 a 180)                         225
+Monto <= 0                                                   223
+Latitud fuera de rango (-90 a 90)                            223
+Fecha transacción inválida | Edad fuera de rango (18-120)    180
+is_fraud no es 0 o 1                                         180
+Fecha nacimiento inválida | Edad fuera de rango (18-120)     180
+Monto no numérico                                            179
+Género no es M o F                                           174
+Género no es M o F | Edad fuera de rango (18-120)              6
+2026-06-22 22:31:00 - INFO - Metadatos asignados: validos=57513, invalidos=2487, columnas_clave=['estado_calidad','fuente','observacion']
+2026-06-22 22:31:00 - INFO - Total registros procesados: 60000
+2026-06-22 22:31:00 - INFO - Total registros válidos: 57513
+2026-06-22 22:31:00 - INFO - Total registros inválidos: 2487
+2026-06-22 22:31:00 - INFO - Top motivos de invalidez:
+observaciones
+Edad fuera de rango (18-120)                                 912
+Longitud fuera de rango (-180 a 180)                         225
+Monto <= 0                                                   223
+Latitud fuera de rango (-90 a 90)                            223
+Fecha transacción inválida | Edad fuera de rango (18-120)    180
+is_fraud no es 0 o 1                                         180
+Fecha nacimiento inválida | Edad fuera de rango (18-120)     180
+Monto no numérico                                            179
+Género no es M o F                                           174
+Género no es M o F | Edad fuera de rango (18-120)              6
+2026-06-22 22:31:00 - WARNING - Registro inválido index=0: trans_num=cf581d75ccc9ba838a05dec8bfa78b5b, cc_num=377895991033232, amt=1.07, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=1: trans_num=b1bfaf13224da41f422db483fd810dd7, cc_num=30364087349027, amt=94.99, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=2: trans_num=cde9fc0136873645778d0ad8817db655, cc_num=30328384440870, amt=31.28, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=3: trans_num=90b8429191e5c83df1afba4e5db4d61e, cc_num=30364087349027, amt=73.06, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=4: trans_num=e4893795b6b3e41667129b9ed13b9650, cc_num=4198470814557, amt=9.99, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=5: trans_num=b76319f767c5b27731982851c12366ba, cc_num=213126662687660, amt=28.5, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=6: trans_num=d21bc0886809d98c17b626db3c3c88d1, cc_num=639023984367, amt=9.09, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=7: trans_num=2ee3bc727806dde7f17d20394297acd1, cc_num=4990494243023, amt=1.64, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=8: trans_num=044fe6aac6c192d55144776bafdd0bd6, cc_num=4452366298769043, amt=55.9, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - WARNING - Registro inválido index=9: trans_num=c397d59c441a8e74ffabd529da3cfb90, cc_num=180094419304907, amt=50.61, trans_date_trans_time=nan, observaciones=Fecha transacción inválida | Edad fuera de rango (18-120)
+2026-06-22 22:31:00 - INFO - Registro de validación completado
+2026-06-22 22:31:01 - INFO - Exportación completada: validos=../data/processed/fraude_validas.csv, invalidos=../data/processed/fraude_invalidas.csv

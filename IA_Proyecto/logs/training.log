@@ -1,0 +1,14 @@
+2026-06-23 01:57:50 - INFO - Librerías importadas correctamente
+2026-06-23 01:57:51 - INFO - Archivo '../data/processed/fraude_validas.csv' cargado correctamente con 57513 registros
+2026-06-23 01:57:51 - INFO - Iniciando agregación de transacciones por cliente...
+2026-06-23 01:57:51 - INFO - Percentiles calculados - P80 monto: 90.28
+2026-06-23 01:57:51 - INFO - P80 desv: 132.90, P80 trans: 93, P5 edad: 24, P95 edad: 84
+2026-06-23 01:57:51 - INFO - Objetivo definido: nivel_riesgo (0=bajo, 1=medio, 2=alto)
+2026-06-23 01:57:51 - INFO - Agregación completada: 911 clientes únicos
+2026-06-23 01:57:51 - INFO - Distribución: 726 bajo, 139 medio, 46 alto
+2026-06-23 01:57:51 - INFO - Variables predictoras seleccionadas (X): ['fraudes_historicos', 'monto_promedio', 'monto_desv_std', 'total_transacciones', 'edad_promedio']
+2026-06-23 01:57:51 - INFO - División de datos: 728 registros para entrenamiento, 183 registros para prueba
+2026-06-23 01:57:51 - INFO - SMOTE aplicado: 728 \u2192 1740 muestras de entrenamiento
+2026-06-23 01:57:51 - INFO - Modelo de Regresión Logística Multiclase construido
+2026-06-23 01:57:51 - INFO - Modelo entrenado exitosamente con Regresión Logística (SMOTE)
+2026-06-23 01:57:51 - INFO - Métricas Multiclase - Accuracy: 0.8579, Precision: 0.8974, Recall: 0.8579, F1: 0.8716

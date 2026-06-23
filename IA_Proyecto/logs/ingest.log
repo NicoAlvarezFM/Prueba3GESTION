@@ -1,0 +1,10 @@
+2026-06-22 22:30:36 - INFO - Dataset encontrado correctamente en data/raw
+2026-06-22 22:30:41 - INFO - Inicio de carga del dataset desde ../data/raw/02_fraudTest.csv
+2026-06-22 22:30:41 - INFO - Dataset cargado correctamente: filas=60000, columnas=23
+2026-06-22 22:30:42 - INFO - Exploración inicial iniciada: filas=60000, columnas=23
+2026-06-22 22:30:42 - INFO - Se ejecutó df.info() para revisar tipos y nulos
+2026-06-22 22:30:42 - INFO - Conteo de valores nulos completado: nulos_totales=0
+2026-06-22 22:30:42 - INFO - Conteo de filas duplicadas completado: duplicados=0
+2026-06-22 22:30:42 - INFO - Limpieza completada: montos_negativos=225, fecha_nulas=360
+2026-06-22 22:30:42 - INFO - Transformación completada: trans_year y edad creadas; edad_min=5.0, edad_max=96.0
+2026-06-22 22:30:43 - INFO - Dataset limpio guardado en ../data/processed/fraude_clean.csv con filas=60000 y columnas=25
